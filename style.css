@@ -1,0 +1,118 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    align-self: auto;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .Header {
+    background-color: #ebebeb;
+    color: rgb(158, 156, 156);
+    margin: 10px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+ .Nav {
+    background-color: #ebebeb;
+    color: rgb(158, 156, 156);
+    margin: 10px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+aside {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: rgb(158, 156, 156);
+    background-color: #ebebeb;
+    float: right;
+    height: 282px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    width: 40%;
+    top: 20px;
+  } 
+
+  section {
+    width: 495px;
+    margin: 0;
+    float: left;
+    width: 57%;
+    height: 282px;
+    padding: 30px;
+    border: black;
+    background-color: #ebebeb;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(158, 156, 156);
+}
+
+#article {
+    color: #ebebeb;
+    background: #777;
+    height: 40px;
+    height: 175px;
+    width: 95%;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    padding: 20px;
+}
+
+.h1 {
+    color: #777;
+    background: #ebebeb;
+    height: 50px;
+    width: 95%;
+
+}
+
+.vertical {
+    height: 10px;
+}
+
+#a {
+    position: relative;
+    left: 10px;
+    top: 65px;
+    vertical-align: middle;
+    line-height: 2.5;
+}
+
+#b {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    vertical-align: middle;
+    line-height: 2.5
+}
+
+  .footer {
+    background-color: #ebebeb;
+    color: rgb(158, 156, 156);
+    margin: 10px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    clear: both;
+    bottom: 15px;
+    position: relative;
+  }
+  
